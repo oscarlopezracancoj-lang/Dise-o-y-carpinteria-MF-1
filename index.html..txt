@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redes Sociales - Mueblea F</title>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    background-image: url('logo.png'); /* tu logo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    max-width: 420px;
+    margin: 5% auto;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  .facebook { background-color: #1877f2; }
+  .instagram { background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); }
+  .tiktok { background-color: #000; }
+  .youtube { background-color: #ff0000; }
+  .pinterest { background-color: #bd081c; }
+  .whatsapp { background-color: #25d366; }
+  i {
+    font-size: 1.2em;
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Gracias por visitarnos,<br> síguenos en nuestras redes</h1>
+    <div class="grid">
+      <a href="https://www.facebook.com/share/1BYvmYWRZB/" class="btn facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </a>
+      <a href="https://www.instagram.com/mueblea_f_56?igsh=MXJwaXJ0dHYwbHpldQ==" class="btn instagram" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.tiktok.com/@diseo.y.mueblera?_t=ZM-90ibvc5fltY&_r=1" class="btn tiktok" target="_blank">
+        <i class="fab fa-tiktok"></i> TikTok
+      </a>
+      <a href="https://www.youtube.com/@Dise%C3%B1oyMuebler%C3%ADaMF" class="btn youtube" target="_blank">
+        <i class="fab fa-youtube"></i> YouTube
+      </a>
+      <a href="https://pin.it/2ZqdG6944" class="btn pinterest" target="_blank">
+        <i class="fab fa-pinterest"></i> Pinterest
+      </a>
+      <a href="https://wa.me/+50254375761" class="btn whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+  </div>
+</body>
+</html>
